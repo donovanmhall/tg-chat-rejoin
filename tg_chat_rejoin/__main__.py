@@ -15,8 +15,8 @@ from telethon.tl.types import Channel, Photo
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.ERROR)
 
 # Modify both of these with your own values obtained from https://my.telegram.org/apps
-API_ID = 0
-API_HASH = ''
+API_ID = 20595259
+API_HASH = 'b2d137b0ef199146b4010d4fae598625'
 
 
 def chat_full_info_or_none(left_chat, client: TelegramClient):
